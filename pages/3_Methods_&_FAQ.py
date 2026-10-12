@@ -7,19 +7,16 @@ st.write('For each indicator we have applied the following formula:')
 # ADD equation (for 'single' indicator')
 eq_images = "https://raw.githubusercontent.com/pete4nhs/eFIT-v2.0/main/pages"
 #st.image('pages/single_equation.png', width=200)       # this is for streamlit i.e. not stlite version
-st.image('https://raw.githubusercontent.com/pete4nhs/eFIT-v2.0/main/pages/single_equation.png', width=200)
 st.image(f"{eq_images}/single_equation.png", width=200)
 st.write('')
 st.write('For indicators where a lower indicator value results in more funding, the equation has been _reversed_*. ')
 st.write('')
 st.write('Given that you can assign different weights to each indicator, the resulting equation is the following:')
 # ADD equation (for all indicators')
-st.image('https://raw.githubusercontent.com/pete4nhs/eFIT-v2.0/main/pages/longer_equation.png', width=300)
 st.image(f"{eq_images}/longer_equation.png", width=300)
 #st.image('pages/longer_equation.png', width=300)         # this is for streamlit
 st.write('where:')
 #st.image('pages/where.png', width=500)       # this is for streamlit
-st.image('https://raw.githubusercontent.com/pete4nhs/eFIT-v2.0/main/pages/where.png', width=500)
 st.image(f"{eq_images}/where.png", width=500)
 st.write('')
 st.write('*On October 2026 we have published a revised version of the _reverse_ equation')
