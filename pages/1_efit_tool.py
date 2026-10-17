@@ -43,7 +43,7 @@ f_pop_qnc, f_pop_qwo
 st.set_page_config(
     page_title ="eFIT",
     #page_icon="favicon.ico",
-    page_icon = "https://raw.githubusercontent.com/pete4nhs/eFIT-v2.0/main/favicon.ico"
+  #  page_icon = "https://raw.githubusercontent.com/pete4nhs/eFIT-v2.0/main/favicon.ico"
     layout="wide",    # alternatively write "centered"
     initial_sidebar_state="expanded",
     menu_items={
